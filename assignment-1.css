@@ -1,0 +1,22 @@
+.banner{
+    background-image: url(B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+}
+.banner-container{
+    text-align: center;
+}
+
+.ms1, .ms2 , .ms3{
+    display: flex;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    background-image: url(B10A1-Challenge-Begins-main/assets/handshake.jpg);
+    max-width: 100%;
+    max-height: 813px;
+    text-align: center;
+}
