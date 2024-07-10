@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 .banner{
     background-image: url(B10A1-Challenge-Begins-main/assets/Hero-bg.png);
-    height: 580px;
+    height: 680px;
 }
 .banner-container{
     text-align: center;
