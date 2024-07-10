@@ -1,22 +1,290 @@
 .banner{
     background-image: url(B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    height: 580px;
 }
 .banner-container{
     text-align: center;
 }
-
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 32px 200px 24px 200;
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 0px 294px;
+}
+.btn1{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 21px 24px;
+    margin: 32px 0px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
 .ms1, .ms2 , .ms3{
     display: flex;
     justify-content: space-between;
+}
+.summary{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 74px;
+    margin-bottom: 88px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    border: 3px solid rgba(13, 19, 33, 0.02);
+}
+.ms1-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.ms1-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7px;
+}
+.btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;    
+}
+.ms2-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.ms2-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+}
+.ms3-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.ms3-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+}
+.summary-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.summary-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.inspiration{
+    margin: 88px 60px 150px 60px;
+}
+.inspiration-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.inspiration-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.video{
+    padding: 48px 30px 30px 30px;
+    border: 1.5px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px; 
+    overflow: hidden;
 }
 .card-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
+    margin: 111px 60px;
+}
+.card-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.card-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.target1{
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 299px;
+}
+.target2{
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 299px;
+}
+.target3{
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 299px;
+}
+.t-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+.t-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: left;
+}
+.link{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
 }
 .submit{
     background-image: url(B10A1-Challenge-Begins-main/assets/handshake.jpg);
-    max-width: 100%;
-    max-height: 813px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    margin-top: 29px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 50px 48px;
+    border-radius: 14px;
+}
+.form{
     text-align: center;
+    padding-top: 60px;
+}
+.submit-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.submit-description{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+.input-title{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: start;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+}
+.input-submit{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 23px;
+   padding: 19px 20px;
+   text-align: center;
+}
+.footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 70px;
+}
+.footer-div{
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
 }
